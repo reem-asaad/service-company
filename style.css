@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.header .content-box {
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("meeting.jpg");
+    width: 1500px;
+    height: 754px;
+    min-width:100%;
+}
+
+.menu {
+    display: inline-flex;
+}
+
+.menu img {
+    height: 100px;
+    margin: 20px 0 0 110px;
+    cursor: pointer;
+}
+
+.menu button {
+    padding: 5px 20px;
+    background: #ff4d73;
+    color: #fff;
+    font-size: 16px;
+    border: 0;
+    position: absolute;
+    right: 10%;
+    top: 5%;
+}
+
+.menu button .fas {
+    margin-right: 10px;
+}
+
+.banner-text {
+    width: 80%;
+    color: #fff;
+    margin: 16% auto 0;
+    text-align: center;
+}
+
+.banner-text h2 {
+    margin-top: 40px;
+    font-size: 64px;
+}
+
+.banner-text p {
+    font-size: 14px;
+    margin: 20px 0 50px;
+}
+
+.banner-text a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #ff4d73;
+    display: block;
+    padding: 10px;
+    width: 180px;
+    margin: auto;
+    background: #ff4d73;
+    transition: .5s;
+}
+
+.banner-text a:hover {
+    background: transparent;
+}
+
+/*------- Service -------*/
+
+.content-box {
+    background: #f4f3ff;
+    height: 100vh;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    padding: 7%;
+}
+
+h1::after {
+    content: '';
+    background: #ff4d73;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 50px;
+}
+
+.services .icon {
+    font-size: 30px;
+    margin: 20px auto;
+    padding: 13px;
+    height: 70px;
+    width: 70px;
+    border: 1px solid #ff4d73;
+    border-radius: 50%;
+    color: #ff4d73;
+}
+
+.services p {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #777;
+    padding: 20px;
+}
+
+.services span {
+    color: #ff4d73;
+}
+
+.services .col-md-3:hover {
+    background: #ff4d73;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: -5px 5px 10px 0 rgba(0, 0, 0, 0.4);
+    transition: .5s;
+}
+
+.services .col-md-3:hover .icon {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.services .col-md-3:hover p {
+    color: #fff;
+}
+
+.services .col-md-3:hover span {
+    color: #fff;
+}
+
+/*------- Features -------*/
+
+/* .feature-content-box {
+    margin-bottom: 130px;
+} */
+
+.feature h2 {
+    margin-top: 130px;
+}
+
+.feature h2::after {
+    content: '';
+    background: #ff4d73;
+    display: block;
+    height: 3px;
+    width: 100px;
+    margin: 10px auto 50px;
+    position: absolute;
+    left: 17px;
+}
+
+.feature ul {
+    margin-top: 30px;
+    margin-left: 50px;
+    list-style-type: none;
+}
+
+.feature ul li {
+    line-height: 40px;
+    font-size: 14px;
+    position: relative;
+}
+
+.feature ul li::after {
+    content: '';
+    height: 7px;
+    width: 7px;
+    background: #ff4d73;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 17px;
+    left: -25px;
+}
+
+.feature img {
+    margin-top: 130px;
+}
+
+/*------- Footer -------*/
+
+/* .footer {
+    background: #f4f3ff;
+    padding-bottom: 2%;
+} */
+
+.footer h1 {
+    padding-top: 50px;
+}
+
+.contact-form {
+    padding: 15px;
+}
+
+.form-control {
+    border-radius: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+::placeholder {
+    font-size: 12px;
+}
+
+.contact-form button {
+    border: none !important;
+    background: #ff4d73 !important;
+    box-shadow: none !important;
+    border-radius: 0;
+}
+
+.contact-info .follow {
+    background-color: #fff;
+    padding: 8px;
+    margin: 15px;
+}
+
+.contact-info .fas, .contact-info .fab{
+    margin: 10px;
+    font-size: 20px !important;
+    color: #ff4d73 !important;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.contact-info span {
+    font-size: 14px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer hr {
+    margin-top: 50px;
+    background: #ff4d73;
+}
+
+.service, .feature, .footer {
+    margin-top: 10%;
+} 
